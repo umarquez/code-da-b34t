@@ -69,10 +69,10 @@ Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses sy
 
 ### Tab
 
-'''
+```
 HH||  X-x-X-x-X-x-X-x-|X-x-X-x-X-x-X-x-  ||
  S||: ----o-------o---|----o-------o--- :||
 BD||  o---o---o---o-o-|o---o---o---o-o-  ||
       1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +
-'''
+```
 
