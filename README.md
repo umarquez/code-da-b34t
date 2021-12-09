@@ -1,4 +1,4 @@
-# Punchis-punchis
+# Code da B34T
 
 Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses synths to model each instrument.
 
@@ -8,24 +8,26 @@ Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses sy
 
 - Osc 1:
     - Tiangle wave
-    - 150.01hz
-    - Release 1.1
-    - Slide to: 20hz
-    - Slide time: 0.1
+    - 150.05hz
+    - Release: 0.7
+    - Amp: 0.7
+    - Slide to: 50.03hz
+    - Slide time: 0.25
 - Osc 2:
-    - Sine wave
-    - 50.1hz
-    - release: 0.75
+    - Tiangle wave
+    - 50.07hz
+    - release: 0.1
+    - Amp: 0.5
 - LPF:
     - Cutoff: note 110
-    - Slide to: note 40
+    - Slide to: note 60
     - Slide time: 0.1
 
 ### Snare
 
 - Osc 1:
     - Sine wave
-    - 300hz
+    - 400.1hz
     - Release 0.1
     - Amp: 0.15
 - Osc 2:
@@ -60,6 +62,9 @@ Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses sy
 - Room: 0.3
 - Damp: 0.7
 
+### Global HPF
+- Cutoff: 50hz
+
 
 ## Rythm
 
@@ -71,7 +76,7 @@ Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses sy
 
 ```
 HH||  X-x-X-x-X-x-X-x-|X-x-X-x-X-x-X-x-  ||
- S||: ----o-------o---|----o-------o--- :||
+ S||: ----o-------o---|----o-----o-o--- :||
 BD||  o---o---o---o-o-|o---o---o---o-o-  ||
       1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +
 ```
