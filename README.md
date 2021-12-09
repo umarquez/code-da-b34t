@@ -70,7 +70,7 @@ Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses sy
 
 ### Score
 
-![Punchis-punchis](/punchis-punchis.svg)
+![Punchis-punchis](/score.svg)
 
 ### Tab
 
