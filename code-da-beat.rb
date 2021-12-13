@@ -66,7 +66,7 @@ define :snare do
   end
 end
 
-# - High Hats
+# - Hi-hats
 define :hh do |accent = false|
   if !hh_enable
     return
