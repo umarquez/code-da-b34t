@@ -28,38 +28,43 @@ BD||  o---o---o---o-o-|o---o---o---o-o-  ||
     - 150.05hz
     - Release: 0.7
     - Amp: 0.7
-    - Slide to: 50.03hz
-    - Slide time: 0.25
+    - Slide to: 50hz
+    - Slide time: 0.1
 - Osc 2:
     - Tiangle wave
-    - 50.07hz
+    - 50hz
     - release: 0.1
     - Amp: 0.5
 - LPF:
-    - Cutoff: note 110
-    - Slide to: note 60
+    - Cutoff: 5000hz
+    - Slide to: 250hz
     - Slide time: 0.1
 
 ### Snare
 
 - Osc 1:
     - Sine wave
-    - 400.1hz
+    - 400hz
     - Release 0.1
     - Amp: 0.15
+    - Slide to: note 155hz
+    - Slide time: 0.05
 - Osc 2:
     - Sine wave
     - 600hz
     - Release 0.1
     - Amp: 0.15
+    - Slide to: 303hz
+    - Slide time: 0.05
 - Osc 3:
     - White noise
-    - Release 0.5
-    - Cutoff: note 100
+    - Release 1
+    - Cutoff: 1500hz
     - Env curve: 7
+    - Amp: 0.5
 - LPF:
-    - Cutoff: note 110
-    - Amp: 0.7
+    - Cutoff: 1500hz
+    - Amp: 0.5
 
 ### High-hats
 
@@ -68,7 +73,7 @@ BD||  o---o---o---o-o-|o---o---o---o-o-  ||
     - Release 0.3
     - Amp: 0.5 (_accented: 2_)
 - HPF:
-    - Cutoff: note 130
+    - Cutoff: 15000hz
     - Mix: 1
 
 
@@ -82,3 +87,12 @@ BD||  o---o---o---o-o-|o---o---o---o-o-  ||
 ### Global HPF
 - Cutoff: 50hz
 
+# Apendix 1: Type of curves
+
+- 1: linear
+- 2: exponential
+- 3: sine
+- 4: welch
+- ~5~: _not used_
+- 6: squared
+- 7: cubed 
