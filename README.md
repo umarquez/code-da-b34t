@@ -2,6 +2,7 @@
 
 Two bars loop made with Ruby for [Sonic Pi](https://sonic-pi.net/), this uses synths to model each instrument.
 
+[Listen here](https://soundcloud.com/umarquez/code-da-b34t/s-Jd9MpNrcVAb?si=34c5b5809867489688bd96484d28915f)
 
 ## Rythm
 
