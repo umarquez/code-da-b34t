@@ -66,7 +66,7 @@ BD||  o---o---o---o-o-|o---o---o---o-o-  ||
     - Cutoff: 1500hz
     - Amp: 0.5
 
-### High-hats
+### Hi-hats
 
 - Osc 1:
     - White noise
